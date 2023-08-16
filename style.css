@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+}
+
+/* header start */
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    /* background: #E3E6F3; */
+    background: #fff;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
+    z-index:999;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+
+#navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+}
+
+    
+#navbar li{
+     list-style: none;
+    padding: 0 20px;
+    position: relative;
+    
+}
+
+#navbar li a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color: #1a1a1a;
+transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+color: hsl(5, 85%, 63%);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: none;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#main-container{
+    /* background-image: url('./assets/images/image-web-3-desktop.jpg'); */
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container1, img{
+    width: 80%;
+    justify-content: center;
+    padding-left: 40px;
+    padding-top: 10px;
+    height: auto;
+}
+
+.flex-items{
+    display: flex;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.h1Element{
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.innerDiv{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+ .pc{
+    padding-bottom: 30px;
+    color: hsl(236, 13%, 42%);
+} 
+/* Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) */
+.box{
+    background:  hsl(240, 100%, 5%);
+    color: #fff;
+    padding: 15px;
+    padding-top: 10px;
+    /* margin-left: 25px; */
+    padding-bottom: 10px;
+    width: fit-content;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.box:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+/* (233, 8%, 79%)hsl(236, 13%, 42%) */
+ 
+.container2{
+    background:  hsl(240, 100%, 5%);
+    flex: 1;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    height: 77.5%;
+    /* 470px */
+    margin-left: -14%;
+    margin-right: 7.5%;
+    
+}
+
+.hc{
+    padding-bottom: 17px;
+    color: hsl(35, 77%, 62%);
+}
+
+.h4c{
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.p{
+    font-size: 12px;
+    color: hsl(233, 8%, 79%);
+}
+/* hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%) */
+.firstPart{
+    padding-bottom: 50px;
+}
+.secondh4{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.secondp{
+    font-size: 12px;
+    color: hsl(233, 8%, 79%);
+}
+
+.secondPart{
+    padding-bottom: 50px;
+
+}
+
+.thirdh4{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.thirdp{
+    font-size: 12px;
+    color: hsl(233, 8%, 79%);
+}
+
+/* .thirdPart{
+    padding-bottom: 50px;
+} */
+
+.h4c:hover{
+    color: hsl(35, 77%, 62%);
+}
+.secondh4:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.thirdh4:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+/* bottom section */
+
+.image{
+    width: fit-content;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.flex1{
+    /* padding-left: -0px; */
+    padding-top: 10px;
+    padding-left: 0px;
+
+}
+
+.main1{
+    display: flex;
+    width: 30.9%;
+}
+
+.component{
+    display: flex;
+}
+
+.flex1 h1{
+    color: hsl(236, 13%, 42%);
+    padding-bottom: 10px;
+}
+
+.flex1 p{
+    color: hsl(236, 13%, 42%);
+}
+
+.flex1 h4{
+ padding-bottom: 10px;
+}
+
+.flex1 h4:hover{
+ color: hsl(5, 85%, 63%);
+ cursor: pointer;
+}
+
+
